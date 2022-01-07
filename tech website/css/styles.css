@@ -1,0 +1,110 @@
+body {
+    overflow: scroll;
+    width: 100vw;
+    height: 300vh;
+    background: url("../assets/images/cascading.png");
+    background-attachment:local;
+    background-color: gold;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    margin: 0 10px;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: sticky;
+    height: 7rem;
+    background: white;
+    align-items: center;
+}
+
+main {
+    margin: 20px 10px 20px 10px;
+    height: 100%;
+    background-color: rgba(180, 240, 180, 0.1);
+}
+
+footer {
+
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #222;
+    text-decoration: none; /* no underline */
+}
+
+@media only screen and (min-width: 900px) {
+    div.header-element {
+        display: flex;
+    }
+    div.hidden-header {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    div.header-element {
+        display:none;
+    }
+    div.hidden-header {
+        display: flex;
+        align-items: center;
+    }
+    ul {
+        margin-left: 60px;
+    }
+}
+
+.logo {
+    justify-self: flex-start;
+    padding-left: 1rem;
+    width: 5rem;
+    height: 5rem;
+}
+
+.header-element {
+    margin-right: 0.9rem;
+    display: flex;
+    align-items: center;
+}
+
+.header-element:first-child {
+    margin-right: auto;
+}
+
+.header-btn {
+    border-radius: 10px;
+    border-bottom: 1px solid gold;
+    background-color: transparent;
+    justify-self: flex-end;
+    width: 12rem;
+    height: 3rem;
+    outline: 0;
+    border: none;
+}
+
+.header-btn:hover {
+    border-radius: 1rem;
+    border-bottom: 2px solid gold;
+    color: black;
+    transition: all 0.15s;
+}
+
+.hiden-header {
+    display: none;
+    width: 100vw;
+    background-color: #fcfcfc;
+}
