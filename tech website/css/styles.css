@@ -28,6 +28,10 @@ footer {
 
 }
 
+h2 {
+    color: #F37748;
+}
+
 h3 {
     margin-left: 10px;
 }
@@ -110,11 +114,11 @@ a {
     background-color: #fcfcfc;
 }
 
-.introduction {
+.plans {
     text-align: center;
     justify-content: center;
     align-content: center;
-    margin: 2rem 0;
+    margin: 5rem 0 0 0;
 }
 
 .blob {
@@ -124,7 +128,7 @@ a {
     fill: #023F92;
     width: 50vmax;
     z-index: -1;
-    animation: move 10s ease-in-out infinite;
+    animation: move 60s ease-in-out infinite;
     transform-origin: 50% 50%;
   }
   
@@ -148,7 +152,7 @@ a {
     margin: 1rem 0;
     width: 25rem;
     border: 3px solid #F37748;
-    height: 22rem;
+    height: 22.5rem;
     background-color: #fff;
     border-radius: 3rem;
     overflow: hidden;
@@ -277,5 +281,50 @@ a {
     margin-bottom: 0.5rem;
 }
 
+.core-content {
+    margin-top: -2rem;
+    height: auto;
+    align-items: center;
+}
 
+.first-core-content {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.first-core-content p{
+    width: 30rem;
+    font-size: larger;
+    text-align: center;
+}
+
+.second-core-content {
+    margin-top: 2rem;
+    height: 9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.column-text {
+    display: flex;
+    flex-direction: column;
+    width: 50rem;
+    text-align: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.row-text {
+    display: flex;
+    flex-direction: row;
+    width: 50rem;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.product-intro {
+    display: flex
+}
